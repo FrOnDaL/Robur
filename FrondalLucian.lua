@@ -5,7 +5,7 @@ end
 module("Frondal Lucian", package.seeall, log.setup)
 clean.module("Frondal Lucian", clean.seeall, log.setup)
 local _VER, _LASTMOD = "1.0.0", "04.05.2022"
---_G.CoreEx.AutoUpdate("https://raw.githubusercontent.com/FrOnDaL/Robur/main/FrondalLucian.lua", _VER)
+_G.CoreEx.AutoUpdate("https://raw.githubusercontent.com/FrOnDaL/Robur/main/FrondalLucian.lua", _VER)
 
 local Utils = {}
 local Lucian = {}
